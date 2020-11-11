@@ -1,0 +1,141 @@
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 70%;
+ 
+    margin: 100px auto;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+}
+.left-side{
+    float: left;
+    width: 50%;
+    color: white;
+    padding-top: 80px;
+}
+.left-side h1{
+    line-height: 1.2;
+    font-size: 40px;
+}
+.left-side p{
+    font-size: 14px;
+}
+.right-side{
+    float:right;
+    width: 45%;
+    padding: auto;
+}
+.right-side .freeBtn{
+    background-color: #6b32cf;
+    color: white;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+    font-size: 12px;
+    -webkit-box-shadow: 0px 6px 0px 0px rgba(48,48,48,0.27);
+    -moz-box-shadow: 0px 6px 0px 0px rgba(48,48,48,0.27);
+    box-shadow: 0px 6px 0px 0px rgba(48,48,48,0.27);
+}
+.right-side button .tryFree{
+    font-weight: 600;
+}
+.right-side .infoForm{
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 4px 0px 0px rgba(48,48,48,0.27);
+    -moz-box-shadow: -1px 4px 0px 0px rgba(48,48,48,0.27);
+    box-shadow: -1px 4px 0px 0px rgba(48,48,48,0.27);
+}
+.right-side form{
+    padding-left: 5%;
+    padding-right: 8%;
+}
+input {
+    width: 98%;
+    height: 32px;
+    border: 1px solid #737373;
+    border-radius: 3px;
+    padding-left: 15px;   
+}
+.claim{
+    background-color: #42c969;
+    color: white;
+    width: 103%;  
+    border: none;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 2px;
+    margin-top: 13px; 
+    font-size: 11px;
+    font-weight: 600;
+    border: 1px solid #3ba158; 
+}
+.right-side .infoForm p{
+    font-size: 9px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #a1a1a1;
+}
+.right-side .infoForm a{
+    color: red;
+    text-decoration: none;
+}
+
+/*Phones*/
+@media only screen and (max-width: 500px) {
+    .container{
+        max-width: 90%;
+        margin: 25px auto;
+    }
+    .left-side{
+        float: none;
+        width: 100%;        
+    }
+    .left-side h1{
+        text-align: center;
+        max-width: 80%;
+        width: 80%;
+        font-size: 25px;
+        line-height: 1.5;
+        margin: 0 auto;
+    }
+    .left-side p{
+        text-align: center;
+        font-weight: 200;      
+    }
+    .right-side{
+        float: none;
+        width: 100%;
+        margin-top: 50px;       
+    }
+    .right-side .freeBtn{
+        padding: 20px 45px;
+        font-size: 16px;
+        line-height: 2;
+        font-weight: 200;      
+    }   
+    input {
+        width: 98%;     
+    }
+  }
+
+  /*iPad*/
+@media only screen and (min-width: 501px) and (max-width: 768px){
+    .left-side h1{       
+        font-size: 30px;       
+    }
+    .left-side p{
+        font-size: 12px;     
+    }
+    input {
+        max-width: 94%;      
+    }   
+}
